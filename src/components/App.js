@@ -21,7 +21,7 @@ function App() {
           <Route path=":catId" element={<Diploma />}>
             <Route path=":sessionId" element={<Session />} />
           </Route>
-          <Route index element={<h3>Select a Category from above</h3>}/>
+          <Route index element={<h3>Select a Diploma from above</h3>}/>
         </Route>
         <Route path="register" element={<Register />} />
         <Route path="confirmed" element={<Confirmation />} />
