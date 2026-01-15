@@ -7,8 +7,9 @@ export default function Confirmation() {
 
       {state && (
         <>
-          <p>{state.name}, you're now registered for Red30 Tech.</p>
-          <p>We've sent more details to <strong>{state.email}</strong>.</p>
+          <h1>Thank you, {state.name}</h1>
+          <p>You're now registered for {state.course}.</p>
+          <p>We'll email to <strong>{state.email}</strong>.</p>
         </>
       )}
     </div>  
